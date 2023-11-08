@@ -1,24 +1,48 @@
 # smile
 
-## Project setup
-```
-npm install
-```
+## 기획 의도
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> 이전 프로젝트인 gasmilMBTIng 리팩토링으로 이전의 개선점을 해결하고, 커뮤니티와 랜덤 질문, 답변 기능을 추가하였습니다.
+> 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+> 주변 사람들의 MBTI 정보를 손쉽게 저장하고 간편하게 확인할 수 있는 사전과 같은 앱
+>
+> 
 
-### Lints and fixes files
-```
-npm run lint
-```
+## **📅 일정 및 프로젝트 링크**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 2023.2.21 ~ 진행중
+- 링크: https://www.smile-mbti.shop/
+
+## **🧑‍💻 개발팀**
+
+| 이름 | 역할 |
+| --- | --- |
+| 이우열 | FE, 팀장 |
+| 이호빈 | FE |
+| 노은빈 | BE |
+
+## 💻기술 스택
+
+- BackEnd : node.js
+- DB : MySQL
+- FrontEnd : Vue.js
+- release : Front - vercel, Back - Cloudtype, DB - AWS(RDS, EC2)
+
+## 리팩토링 설계
+
+<aside>
+💡 기존과 달라지는 부분들
+
+</aside>
+
+- 커뮤니티 생성(추천 글, 글 쓰기)
+- 랜덤 질문, 랜덤 쪽지
+
+## ✏ 서비스 주요 기능
+
+- `회원 가입 및 유효성 검사`
+- `로그인 및 회원정보 기능(로그아웃, 탈퇴 등)`
+- `각 기능별 CRUD`
+- `랜덤 질문 및 답변`
+- `커뮤니티(게시글, 댓글)`
